@@ -1,0 +1,132 @@
+html, body {
+    height: 100%;
+  }
+
+body{
+    background: linear-gradient(to bottom right, #9bbabd, #51777c, #c4d5c4);
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-size: 15px;
+  }
+
+  #login {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+  #card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #dfd8d4;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 1200px;
+    height:700px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.cardProfs{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #dfd8d4;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height:350px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+    
+.cardAlunos{
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #dfd8d4;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height:350px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+
+#ImgPerfil{
+    border-radius: 100px;
+    height: 100px;
+    width: 170px;
+    margin: auto;
+    text-align: center;        
+    text-align: center;       
+}
+
+.submit{
+    background-color: #377d63;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;    
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+
+.add{    
+    height: 70px;
+    position: absolute;
+    bottom: 55%;
+    right: 25%;
+    background-color: #377d63;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.add:hover{
+background-color: #405866;
+}
+
+
+.consulta{
+    height: 70px;
+    position: absolute;
+    bottom: 20%;
+    right: 25%;
+    background-color: #377d63;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.consulta:hover{
+    background-color: #707844;
+}
