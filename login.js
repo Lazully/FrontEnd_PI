@@ -1,4 +1,4 @@
-alert('Olá! Seja bem-vindo ao nosso site.');
+// alert('Olá! Seja bem-vindo ao nosso site.');
 
 document.addEventListener("DOMContentLoaded", function() {
   var btnMenu = document.getElementById("IrParaMenu");

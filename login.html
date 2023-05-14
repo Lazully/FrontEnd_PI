@@ -15,24 +15,27 @@
                 <form class="card">
                     <div class="card-header">
                         <div class="card-header-content">
-                            <img src="Persona.png" alt="Imagem de perfil" id="ImgPerfil">
-                            <h2>Entrar na conta</h2> 
+                            <img src="logo.png"Imagem de perfil" id="ImgPerfil">
+                            <h2 class="h2Card">Login de Rede</h2> 
                         </div>
                     </div>
                     <div class="card-content">
                         <div class="card-content-area">
-                            <label for="usuario">Usuário</label>
-                            <input type="text" id="usuario" autocomplete="off" placeholder="usuário" required autofocus>
+                            <label for="usuario" class="lblUsuario"><b>Usuário:</b></label>
+                            <input type="text" id="usuario" autocomplete="off" placeholder="Usuário" required autofocus>
                         </div>
                         <div class="card-content-area">
-                            <label for="password">Senha</label>
-                            <input type="password" id="password" autocomplete="off" placeholder="senha" min="8" required autofocus aria-describedby="passwordHelpInline">
+                            <label for="password" class="lblSenha"><b>Senha:</b></label>
+                            <input type="password" id="password" autocomplete="off" placeholder="Senha" min="8" required autofocus aria-describedby="passwordHelpInline">
+                        </div>
+                        <div class="btnRobo">
+                            <input type="checkbox">Não sou um robô.
                         </div>
                     </div>
                     <div class="card-footer">
                         <input type="submit" value="LogIn" class="submit" aria-label="Fazer login" id="IrParaMenu">
-                        <input type="submit" value="SignIn" class="submit" aria-label="Cadastrar-se" id="IrParaCadastro">
-                        <br>
+                        <input type="submit" value="Sign In" class="submit" aria-label="Cadastrar-se" id="IrParaCadastro">
+                        <br><br>
                         <a href="#" class="recuperar_senha" id="IrParaRecSenha">Esqueceu a senha?</a>
                     </div>
                 </form>

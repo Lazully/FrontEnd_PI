@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(to bottom right, #7EADB3, #D195AD, #3B3758);
+  background: linear-gradient(to bottom right, #9bbabd, #51777c, #c4d5c4);
   font-family: "Century Gothic", Arial, sans-serif;
   font-size: 15px;
 }
@@ -37,10 +37,10 @@ left: 50%;
 transform: translate(-50%, -50%);
 padding: 20px;
 border-radius: 10px;
-background-color: rgba(126,173,179, 0.8);
+background-color: #dfd8d4;
 backdrop-filter: blur(10px);
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-height: 600px;
+height: 520px;
 margin: auto;
 padding: 20px;
 width: 400px;
@@ -49,14 +49,39 @@ opacity: 0.8;
 }
 
 #ImgPerfil{
-border-radius: 200px;
-height: 200px;
+border-radius: 100px;
+height: 100px;
 margin: auto;
 text-align: center;
-border: 2px solid #3B3758;
+/* border: 1px solid #3B3758; */
 text-align: center;
-backdrop-filter: blur(10px);
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+/* backdrop-filter: blur(10px); */
+/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+}
+
+.h2Card{
+  font-size: 30px;
+  color: rgb(55, 54, 54);  
+}
+
+.lblUsuario{  
+  margin-right: 140px;
+  margin-bottom: 15px;
+  font-size: 18px;  
+  color: rgb(55, 54, 54);
+}
+.lblSenha{
+  margin-right: 160px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: rgb(55, 54, 54);
+}
+
+.btnRobo{
+  text-align: left; 
+  margin-left: 90px;   
+  margin-bottom: 20px;   
+  
 }
 
 .card-content-area {
@@ -64,11 +89,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin-bottom: 20px;
+margin-bottom: 15px;
 }
 
 .submit {
-background-color: #3B3758;
+background-color: #377d63;
 border: none;
 color: white;
 padding: 12px 20px;
@@ -84,17 +109,22 @@ font-weight: bold;
 }
 
 .submit:hover {
-background-color: #3B3758;
+background-color: #405866;
+}
+
+#IrParaCadastro:hover{
+  background-color: #707844;
+
 }
 
 input[type="text"],
 input[type="password"] {
 background-color: #f1f1f1;
-border-radius: 5px;
+border-radius: 10px;
 border: none;
-padding: 10px;
+padding: 11px;
 margin-bottom: 10px;
-width: 100%;
+width: 50%;
 transition: all 0.3s ease-in-out;
 }
 
@@ -102,4 +132,25 @@ input[type="text"]:focus,
 input[type="password"]:focus {
 outline: none;
 box-shadow: 0 0 5px #7EADB3;
+}
+
+
+.recuperar_senha{
+  font-style: italic; 
+}
+
+.recuperar_senha{
+  color: #3b9feb;
+}
+
+.recuperar_senha:visited{
+  color: black;
+}
+
+.recuperar_senha:hover{
+  color: rgb(57, 84, 236);
+}
+
+.recuperar_senha:active{
+  color: gray;
 }
